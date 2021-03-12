@@ -1,52 +1,28 @@
 module.exports = {
-  email: 'brittany.chiang@gmail.com',
+  email: 'sfreebobo@gmail.com',
 
   socialMedia: [
     {
       name: 'GitHub',
-      url: 'https://github.com/bchiang7',
-    },
-    {
-      name: 'Instagram',
-      url: 'https://www.instagram.com/bchiang7',
-    },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/bchiang7',
-    },
-    {
-      name: 'Linkedin',
-      url: 'https://www.linkedin.com/in/bchiang7',
-    },
-    {
-      name: 'Codepen',
-      url: 'https://codepen.io/bchiang7',
+      url: 'https://github.com/WiseAI-Lab',
     },
   ],
 
   navLinks: [
     {
-      name: 'About',
-      url: '/#about',
-    },
-    {
-      name: 'Experience',
-      url: '/#jobs',
-    },
-    {
-      name: 'Work',
+      name: '项目样例',
       url: '/#projects',
     },
     {
-      name: 'Contact',
+      name: '联系我们',
       url: '/#contact',
     },
   ],
 
   colors: {
-    green: '#64ffda',
-    navy: '#0a192f',
-    darkNavy: '#020c1b',
+    green: '#8892b0',
+    navy: '#112240',
+    darkNavy: '#233554',
   },
 
   srConfig: (delay = 200, viewFactor = 0.25) => ({

@@ -22,7 +22,7 @@ const StyledHeroSection = styled.section`
     }
   }
 
-  h3 {
+  h4 {
     margin-top: 10px;
     color: var(--slate);
     line-height: 0.9;
@@ -48,21 +48,21 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Wise AI</h2>;
+  const three = <h4 className="medium-heading">纬思智能</h4>;
   const four = (
     <p>
-      I'm a software engineer based in Boston, MA specializing in building (and occasionally
-      designing) exceptional websites, applications, and everything in between.
+      As a solution provider of Software and Hardware, we focus on AI combined with reality work.
     </p>
   );
-  const five = (
+  const five = <p>作为软硬件方案提供商，我们专注于AI和现实的结合。</p>;
+  const six = (
     <a href={`mailto:${email}`} className="email-link">
-      Get In Touch
+      Get In Touch (email)
     </a>
   );
 
-  const items = [one, two, three, four, five];
+  const items = [one, two, three, four, five, six];
 
   return (
     <StyledHeroSection>

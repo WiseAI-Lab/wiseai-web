@@ -317,7 +317,7 @@ const Featured = () => {
   return (
     <section id="projects">
       <h2 className="numbered-heading" ref={revealTitle}>
-        Some Things I’ve Built
+        项目样例
       </h2>
 
       <StyledProjectsGrid>
@@ -330,7 +330,7 @@ const Featured = () => {
               <StyledProject key={i} ref={el => (revealProjects.current[i] = el)}>
                 <div className="project-content">
                   <div>
-                    <p className="project-overline">Featured Project</p>
+                    <p className="project-overline">AI</p>
 
                     <h3 className="project-title">
                       <a href={external}>{title}</a>
