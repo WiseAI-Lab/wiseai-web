@@ -1,9 +1,7 @@
 ---
 date: '4'
 title: 'Meeting'
-cover: './demo.png'
-# github: 'https://github.com/bchiang7/spotify-profile'
-# external: 'https://spotify-profile.herokuapp.com/'
+cover: './hubs.jpeg'
 tech:
   - Web
   - Robot
@@ -12,4 +10,4 @@ tech:
 showInProjects: true
 ---
 
-Meeting：基于 Google 和 Molliza 的 WebRTC 框架，在 Web 实现 VR 在线会议或机器人线下会议
+Meeting：基于 Google 和 Molliza 的 WebRTC 框架，在 Web 创建自己的房间，支持手机，平板，电脑，VR 等多平台同时参与。

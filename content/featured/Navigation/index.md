@@ -2,8 +2,6 @@
 date: '3'
 title: 'Indoor Navigation'
 cover: './navigation.png'
-# github: 'https://github.com/bchiang7/octoprofile'
-# external: 'https://octoprofile.now.sh'
 tech:
   - Unity
   - PCL
